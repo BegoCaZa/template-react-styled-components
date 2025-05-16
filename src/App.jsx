@@ -1,9 +1,13 @@
-import Button from './components/button/Button';
+import Button from './button/Button';
+import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
   return (
     <>
-      <h1>React</h1> <Button />
+      <GlobalStyles />
+      <h1>REACT</h1>
+      <Button color='lime' hoverColor='red' />
+      <Button color='orange' hoverColor='purple' />
     </>
   );
 };
